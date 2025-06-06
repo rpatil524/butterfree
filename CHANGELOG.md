@@ -3,6 +3,46 @@ All notable changes to this project will be documented in this file.
 
 Preferably use **Added**, **Changed**, **Removed** and **Fixed** topics in each release or unreleased log for a better organization.
 
+## [1.9.0](https://github.com/rpatil524/butterfree/compare/1.8.0...1.9.0) (2025-06-06)
+
+
+### Features
+
+* **MLOP-1985:** optional params ([#347](https://github.com/rpatil524/butterfree/issues/347)) ([9bcca0e](https://github.com/rpatil524/butterfree/commit/9bcca0e20ba63f1643775e4553a68879a021c874))
+* **MLOP-2145:** add feature set creation script ([#351](https://github.com/rpatil524/butterfree/issues/351)) ([688a5b3](https://github.com/rpatil524/butterfree/commit/688a5b3c0ab514034821de2af79ffa2ccdb9dd49))
+* **MLOP-2236:** add NTZ ([#360](https://github.com/rpatil524/butterfree/issues/360)) ([2a5a6e8](https://github.com/rpatil524/butterfree/commit/2a5a6e8be2fa5493da2666261c4af9a304bbdef7))
+* **mlop-2269:** bump versions ([#355](https://github.com/rpatil524/butterfree/issues/355)) ([887fbb2](https://github.com/rpatil524/butterfree/commit/887fbb2f262951f46d62a632755d3b71be8ee3de))
+* **mlop-2455:** add release please workflow ([#398](https://github.com/rpatil524/butterfree/issues/398)) ([353a9b5](https://github.com/rpatil524/butterfree/commit/353a9b597c984748bd4ba22952b8e20975a2bf87))
+* **mlop-2456:** add protection to host setting on cassandra_client ([#385](https://github.com/rpatil524/butterfree/issues/385)) ([ab551c0](https://github.com/rpatil524/butterfree/commit/ab551c089409e552b6ad5330407e360c7411838a))
+* **MLOP-2604:** Create delta writer ([#410](https://github.com/rpatil524/butterfree/issues/410)) ([98c0878](https://github.com/rpatil524/butterfree/commit/98c08785e1d542e6038f381bae5681611e542a41))
+* **mlop-2726:** remove unnecessary validation ([#411](https://github.com/rpatil524/butterfree/issues/411)) ([382907d](https://github.com/rpatil524/butterfree/commit/382907d9753a32e820a74aa7baf07c5709af7208))
+* **mlop-2760:** Create metadata module (feature, feature_set, reader, writer and pipeline) ([#418](https://github.com/rpatil524/butterfree/issues/418)) ([f5c12f1](https://github.com/rpatil524/butterfree/commit/f5c12f190ec79330b280e7856593548b60597063))
+* optional row count validation ([#340](https://github.com/rpatil524/butterfree/issues/340)) ([2a19009](https://github.com/rpatil524/butterfree/commit/2a1900976634b79209e7b7116007df13c00e38d5))
+
+
+### Bug Fixes
+
+* Cassandra config keys ([#366](https://github.com/rpatil524/butterfree/issues/366)) ([81c2c17](https://github.com/rpatil524/butterfree/commit/81c2c178444620b1f1576390ffa13a2be242068a))
+* cassandra configs ([#364](https://github.com/rpatil524/butterfree/issues/364)) ([6363e03](https://github.com/rpatil524/butterfree/commit/6363e03a2d4e8ce4c21102ba1814515fe672029d))
+* include extra-files config for version bump ([#400](https://github.com/rpatil524/butterfree/issues/400)) ([49c91fa](https://github.com/rpatil524/butterfree/commit/49c91fa38467a172afe53cf93ca48211f3838fc9))
+* **MLOP-2519:** avoid configuring logger at lib level ([#393](https://github.com/rpatil524/butterfree/issues/393)) ([b7c7d48](https://github.com/rpatil524/butterfree/commit/b7c7d4873db6eb8aec73ce99240b3dd0c7f6e4b3))
+* **mlop-2649:** fix release process ([#406](https://github.com/rpatil524/butterfree/issues/406)) ([880bc0c](https://github.com/rpatil524/butterfree/commit/880bc0cbba87a05e8d0d021c912f96eb792d2d31))
+* **mlop-2726:** removing the last unecessary validation ([#413](https://github.com/rpatil524/butterfree/issues/413)) ([9646959](https://github.com/rpatil524/butterfree/commit/9646959e1dee3d213c457bc8896f6d7c0c5332b5))
+* move incremental filter ([#388](https://github.com/rpatil524/butterfree/issues/388)) ([b802f69](https://github.com/rpatil524/butterfree/commit/b802f69292ea03a5938940dce2995202f77bf232))
+* new type ([#368](https://github.com/rpatil524/butterfree/issues/368)) ([b1949cd](https://github.com/rpatil524/butterfree/commit/b1949cd3fa4da68595442d28328819d2196e9ddc))
+* parameter, libs ([#341](https://github.com/rpatil524/butterfree/issues/341)) ([ca1a16d](https://github.com/rpatil524/butterfree/commit/ca1a16d5cb7f2a1800084160ecd472c5303918e7))
+* performance adjustments, migrate ([#378](https://github.com/rpatil524/butterfree/issues/378)) ([52d4911](https://github.com/rpatil524/butterfree/commit/52d4911d631b280826341456e3386a39c40d42be))
+* performance improvements ([#374](https://github.com/rpatil524/butterfree/issues/374)) ([11cc5d5](https://github.com/rpatil524/butterfree/commit/11cc5d5c006a17f839f52517f4907c1b40f8d20e))
+* publish and dev versions ([#359](https://github.com/rpatil524/butterfree/issues/359)) ([cbda73d](https://github.com/rpatil524/butterfree/commit/cbda73d974d7e2058de8823800f2df0fa8bf6160))
+* release-please action runner ([#402](https://github.com/rpatil524/butterfree/issues/402)) ([216bd50](https://github.com/rpatil524/butterfree/commit/216bd5038667b8c3b6061ec62aecf1375bb36474))
+* remove rdd dependency ([#415](https://github.com/rpatil524/butterfree/issues/415)) ([0c5a471](https://github.com/rpatil524/butterfree/commit/0c5a471a89ddaac57318d5da5bc0fc56b86c88ff))
+* remove unwanted configs for release-please ([#403](https://github.com/rpatil524/butterfree/issues/403)) ([b2b554e](https://github.com/rpatil524/butterfree/commit/b2b554edaafc2e8387900b2c20926096e084ad81))
+* rollback repartition ([#386](https://github.com/rpatil524/butterfree/issues/386)) ([a11a699](https://github.com/rpatil524/butterfree/commit/a11a699a578e14f6ca05a1cf992c2fc56ebf703d))
+* Rollback to latest stable release ([#391](https://github.com/rpatil524/butterfree/issues/391)) ([5e6f416](https://github.com/rpatil524/butterfree/commit/5e6f416eb2838f5ee7a3be6715e597de5e404a95))
+* sphinx version ([#356](https://github.com/rpatil524/butterfree/issues/356)) ([5af8a05](https://github.com/rpatil524/butterfree/commit/5af8a05a841c02114e08d90455e9cd772a1980c3))
+* testing ([cc1ad97](https://github.com/rpatil524/butterfree/commit/cc1ad971e42f2d0bd6df74b0b0da1bc61bc5b22c))
+* version, format ([#376](https://github.com/rpatil524/butterfree/issues/376)) ([5f7028b](https://github.com/rpatil524/butterfree/commit/5f7028b081c38e7eaeb1aa5fd0f3597b56afaa26))
+
 ## [1.8.0](https://github.com/quintoandar/butterfree/compare/1.7.2...1.8.0) (2025-06-06)
 
 
